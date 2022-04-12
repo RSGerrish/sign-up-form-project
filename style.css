@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&display=swap');
+
+* {
+  font-size: 18px;
+}
+
+main {
+  display: flex;
+}
+
+img {
+  width: 25%;
+  padding: 10px 20px;
+}
+
+
+label {
+    font-size: 0.8rem;
+}
+
+p {
+  max-width: 540px;
+}
+
+.side-margin {
+  width: 20%;
+  flex: 4;
+  max-width: 500px;
+}
+
+.side-logo-container {
+  background-image: url("./img/background.jpeg");
+  background-position-x: -800px;
+  background-position-y:-1400px;
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  min-width: 500px;
+  flex: 0;
+}
+
+.logo-bar{
+  display: flex;
+  font-family: 'Montserrat Subrayada', sans-serif;
+  font-weight:900;
+  color:#FFF;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  min-height: 200px;
+  max-height:300px;
+  width: 500px;
+  margin: 300px auto auto;
+}
+
+.logo-name {
+  font-size: 2.7rem;
+}
+
+.body-container {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-width: 400px;
+  width: 50%;
+  flex: 1;
+}
+
+.section-body {
+  padding: 50px;
+}
+
+.section-notification,
+.section-submit {
+  background-color:rgba(233, 233, 233, 0.4);
+}
+
+.section-notification {
+  display: flex;
+  flex-direction: column;
+  justify-content:end;
+}
+
+.section-notification > p {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.section-notification > p > em {
+  font-size: 1.35rem;
+  font-weight: 900;
+}
+
+.section-form {
+  box-shadow: 0px 10px 8px rgb(165, 165, 165);
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+}
+.section-form > p {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.form-body {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 540px;
+}
+
+.input-box {
+  padding: 5px;
+  margin: 20px 5px;
+}
