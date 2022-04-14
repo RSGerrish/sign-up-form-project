@@ -120,3 +120,10 @@ button {
   padding: 5px;
   margin: 20px 5px;
 }
+
+.textbox {
+  border-radius: 3px;
+  border: 1px solid #E5E7EB;
+  width: 13rem;
+  height: 1.4rem;
+}
